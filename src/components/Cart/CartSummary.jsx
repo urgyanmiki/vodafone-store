@@ -1,11 +1,11 @@
 import { getFormattedPrice } from "../../utils/helpers"
 import { CartProductList } from "./CartProductList"
 
-export const CartDescription = ({ isDescriptionOpen, countOfProducts, productList, orderValue }) => {
-    if (!isDescriptionOpen) return
+export const CartSummary = ({ isSummaryOpen, countOfProducts, productList, orderValue }) => {
+    if (!isSummaryOpen) return
 
     return (
-        <div className="cart-description">
+        <div className="cart-summary">
             <span className="triangle"></span>
             <p className="title">
                 You have {countOfProducts} items in your cart!

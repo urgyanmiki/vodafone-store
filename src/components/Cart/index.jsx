@@ -1,22 +1,22 @@
 import { useState } from "react";
-import { CartDescription } from "./CartDescription";
+import { CartSummary } from "./CartSummary";
 import { CartBtn } from "./CartBtn";
 import { useCart } from "../../hooks/useCart";
 
 const Cart = () => {
-    const [isDescriptionOpen, setDescriptionOpen] = useState(false);
+    const [isSummaryOpen, setIsSummaryOpen] = useState(false);
     const { countOfProducts, productList, orderValue } = useCart();
 
-    const handleToggleDescription = () => {
-        setDescriptionOpen(prev => !prev)
+    const handleToggleSummary = () => {
+        setIsSummaryOpen(prev => !prev)
     }
 
     return (
         <span className="position-relative">
             <CartBtn countOfProducts={countOfProducts}
-                handleToggleDescription={handleToggleDescription}
+                handleToggleSummary={handleToggleSummary}
             />
-            <CartDescription isDescriptionOpen={isDescriptionOpen}
+            <CartSummary isSummaryOpen={isSummaryOpen}
                 countOfProducts={countOfProducts}
                 productList={productList}
                 orderValue={orderValue}

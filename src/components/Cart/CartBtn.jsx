@@ -1,9 +1,9 @@
 import cartIcon from "../../assets/cart.svg"
 import { CartCountBadge } from "./CartCountBadge"
 
-export const CartBtn = ({ countOfProducts, handleToggleDescription }) => {
+export const CartBtn = ({ countOfProducts, handleToggleSummary }) => {
     return (
-        <button className="cart-btn fc-white" onClick={handleToggleDescription}>
+        <button className="cart-btn fc-white" onClick={handleToggleSummary}>
             <img src={cartIcon}
                 alt="Shopping Cart Icon"
                 height="24"
