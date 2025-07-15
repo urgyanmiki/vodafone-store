@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "name": "Poly Edge 550",
+        "price": 30,
+        "image": "/prod-images/poly-edge-550.png",
+        "description": "The Poly Edge 550 is a high-performance IP desk phone designed for busy professionals.",
+        "key_features": [
+            {
+                "title": "Lines",
+                "value": "12 lines"
+            },
+            {
+                "title": "Bluetooth",
+                "value": "Bluetooth 5.0"
+            },
+            {
+                "title": "Audio",
+                "value": "NoiseBlockAI, Acoustic"
+            },
+            {
+                "title": "Display",
+                "value": "5” color display"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Poly Edge E320",
+        "price": 30,
+        "image": "/prod-images/poly-edge-e320.png",
+        "description": "The Poly Edge E320 is a versatile IP desk phone suitable for various office settings.",
+        "key_features": [
+            {
+                "title": "Lines",
+                "value": "8 lines"
+            },
+            {
+                "title": "Connectivity",
+                "value": "NFC technology"
+            },
+            {
+                "title": "Audio",
+                "value": "Acoustic NoiseBlockAI"
+            },
+            {
+                "title": "Display",
+                "value": "3.5-inch display"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Poly Edge B30",
+        "price": 210,
+        "image": "/prod-images/poly-edge-b30.png",
+        "description": "The Poly Edge B30 is an affordable and feature-rich IP phone designed for small to medium-sized businesses.",
+        "key_features": [
+            {
+                "title": "Lines",
+                "value": "4 lines"
+            },
+            {
+                "title": "Audio Technology",
+                "value": "Poly HD Voice"
+            },
+            {
+                "title": "Speakerphone",
+                "value": "Full-duplex"
+            },
+            {
+                "title": "LED Indicators",
+                "value": "Illuminated LEDs"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nokia 3210",
+        "price": 2010,
+        "image": "/prod-images/nokia-3210.png",
+        "description": "The Nokia 3210 is a classic mobile phone originally released in 1999.",
+        "key_features": [
+            {
+                "title": "Display",
+                "value": "48x84 pixel display"
+            },
+            {
+                "title": "Antenna",
+                "value": "Internal antenna"
+            },
+            {
+                "title": "Battery Life",
+                "value": "55–260 hours"
+            },
+            {
+                "title": "Text Input",
+                "value": "T9 text input"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Blackwire 52xx",
+        "price": 30,
+        "sale_price": 29,
+        "image": "/prod-images/blackwire-52xx.png",
+        "description": "The Poly Blackwire 52xx series are corded USB headsets designed for all-day use.",
+        "key_features": [
+            {
+                "title": "Microphone",
+                "value": "Noise-canceling"
+            },
+            {
+                "title": "Connectivity",
+                "value": "USB, 3.5mm"
+            },
+            {
+                "title": "Audio Quality",
+                "value": "Dynamic EQ"
+            },
+            {
+                "title": "Comfort",
+                "value": "Cushioned headband"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Voyager 43xx",
+        "price": 30,
+        "sale_price": 29,
+        "image": "/prod-images/voyager-43xx.png",
+        "description": "The Poly Voyager 43xx series are versatile headsets offering both wireless and corded modes.",
+        "key_features": [
+            {
+                "title": "Microphone",
+                "value": "Dual mic Acoustic Fence"
+            },
+            {
+                "title": "Flexibility",
+                "value": "Noise-canceling boom"
+            },
+            {
+                "title": "Connectivity",
+                "value": "Multi-connectivity"
+            },
+            {
+                "title": "Mute Alert",
+                "value": "Dynamic mute alert"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Savi 72xx",
+        "price": 30,
+        "sale_price": 29,
+        "image": "/prod-images/savi-72xx.png",
+        "description": "The Poly Savi 72xx series are DECT wireless headsets designed for desk phones.",
+        "key_features": [
+            {
+                "title": "Range",
+                "value": "400ft wireless"
+            },
+            {
+                "title": "Microphone",
+                "value": "Noise-canceling"
+            },
+            {
+                "title": "Battery Life",
+                "value": "12 hours talk time"
+            },
+            {
+                "title": "Technology",
+                "value": "DECT encryption"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Voyager Free 60",
+        "price": 30,
+        "sale_price": 29,
+        "image": "/prod-images/voyager-free-60.png",
+        "description": "The Poly Voyager Free 60 are true wireless earbuds designed for professionals on the go.",
+        "key_features": [
+            {
+                "title": "Microphones",
+                "value": "Three mics"
+            },
+            {
+                "title": "Noise Cancellation",
+                "value": "Adaptive ANC"
+            },
+            {
+                "title": "Audio Clarity",
+                "value": "NoiseBlockAI"
+            },
+            {
+                "title": "Connectivity",
+                "value": "Dual Bluetooth"
+            }
+        ]
+    }
+]
